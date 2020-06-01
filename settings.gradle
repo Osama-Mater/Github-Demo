@@ -1,0 +1,5 @@
+include ':Remote'
+include ':Data'
+include ':Domain'
+include ':app'
+rootProject.name = "Github Demo"

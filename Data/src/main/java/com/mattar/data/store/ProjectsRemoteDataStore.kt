@@ -3,8 +3,8 @@ package com.mattar.data.store
 import com.mattar.data.model.ProjectEntity
 import com.mattar.data.repository.ProjectsDataStore
 import com.mattar.data.repository.ProjectsRemote
-import io.reactivex.rxjava3.core.Completable
-import io.reactivex.rxjava3.core.Observable
+import io.reactivex.Completable
+import io.reactivex.Observable
 import javax.inject.Inject
 
 open class ProjectsRemoteDataStore @Inject constructor(

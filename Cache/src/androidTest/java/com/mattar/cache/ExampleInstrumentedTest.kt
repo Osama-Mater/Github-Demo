@@ -1,4 +1,4 @@
-package com.mattar.githubdemo
+package com.mattar.cache
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.mattar.githubdemo", appContext.packageName)
+        assertEquals("com.mattar.cache.test", appContext.packageName)
     }
 }

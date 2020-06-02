@@ -1,8 +1,8 @@
 package com.mattar.domain.repository
 
 import com.mattar.domain.model.Project
-import io.reactivex.rxjava3.core.Completable
-import io.reactivex.rxjava3.core.Observable
+import io.reactivex.Completable
+import io.reactivex.Observable
 
 interface ProjectsRepository {
     fun getProjects(): Observable<List<Project>>

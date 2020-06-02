@@ -1,6 +1,7 @@
 package com.mattar.domain.executor
 
-import io.reactivex.rxjava3.core.Scheduler
+import io.reactivex.Scheduler
+
 
 interface PostExecutionThread {
     val scheduler: Scheduler

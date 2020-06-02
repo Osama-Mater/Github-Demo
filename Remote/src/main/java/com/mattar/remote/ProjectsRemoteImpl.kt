@@ -4,7 +4,7 @@ import com.mattar.data.model.ProjectEntity
 import com.mattar.data.repository.ProjectsRemote
 import com.mattar.remote.mapper.ProjectsResponseModelMapper
 import com.mattar.remote.service.GithubService
-import io.reactivex.rxjava3.core.Observable
+import io.reactivex.Observable
 import javax.inject.Inject
 
 open class ProjectsRemoteImpl @Inject constructor(

@@ -4,7 +4,7 @@ import com.mattar.domain.executor.PostExecutionThread
 import com.mattar.domain.interactor.ObservableUseCase
 import com.mattar.domain.model.Project
 import com.mattar.domain.repository.ProjectsRepository
-import io.reactivex.rxjava3.core.Observable
+import io.reactivex.Observable
 import javax.inject.Inject
 
 class GetProjects @Inject constructor(

@@ -5,9 +5,9 @@ import com.mattar.data.repository.ProjectsCache
 import com.mattar.data.store.ProjectsDataStoreFactory
 import com.mattar.domain.model.Project
 import com.mattar.domain.repository.ProjectsRepository
-import io.reactivex.rxjava3.core.Completable
-import io.reactivex.rxjava3.core.Observable
-import io.reactivex.rxjava3.functions.BiFunction
+import io.reactivex.Completable
+import io.reactivex.Observable
+import io.reactivex.functions.BiFunction
 import javax.inject.Inject
 
 class ProjectsDataRepository @Inject constructor(

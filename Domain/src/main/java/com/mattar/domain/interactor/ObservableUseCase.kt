@@ -1,11 +1,11 @@
 package com.mattar.domain.interactor
 
 import com.mattar.domain.executor.PostExecutionThread
-import io.reactivex.rxjava3.core.Observable
-import io.reactivex.rxjava3.disposables.CompositeDisposable
-import io.reactivex.rxjava3.disposables.Disposable
-import io.reactivex.rxjava3.observers.DisposableObserver
-import io.reactivex.rxjava3.schedulers.Schedulers
+import io.reactivex.Observable
+import io.reactivex.disposables.CompositeDisposable
+import io.reactivex.disposables.Disposable
+import io.reactivex.observers.DisposableObserver
+import io.reactivex.schedulers.Schedulers
 
 abstract class ObservableUseCase<T, in Params> constructor(
     private val postExecutionThread: PostExecutionThread

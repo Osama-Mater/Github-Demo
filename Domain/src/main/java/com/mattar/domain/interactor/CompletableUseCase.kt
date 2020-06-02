@@ -1,11 +1,11 @@
 package com.mattar.domain.interactor
 
 import com.mattar.domain.executor.PostExecutionThread
-import io.reactivex.rxjava3.core.Completable
-import io.reactivex.rxjava3.disposables.CompositeDisposable
-import io.reactivex.rxjava3.disposables.Disposable
-import io.reactivex.rxjava3.observers.DisposableCompletableObserver
-import io.reactivex.rxjava3.schedulers.Schedulers
+import io.reactivex.Completable
+import io.reactivex.disposables.CompositeDisposable
+import io.reactivex.disposables.Disposable
+import io.reactivex.observers.DisposableCompletableObserver
+import io.reactivex.schedulers.Schedulers
 
 abstract class CompletableUseCase<in Params> constructor(
     private val postExecutionThread: PostExecutionThread

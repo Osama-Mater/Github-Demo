@@ -3,7 +3,7 @@ package com.mattar.domain.interactor.bookmark
 import com.mattar.domain.executor.PostExecutionThread
 import com.mattar.domain.interactor.CompletableUseCase
 import com.mattar.domain.repository.ProjectsRepository
-import io.reactivex.rxjava3.core.Completable
+import io.reactivex.Completable
 import javax.inject.Inject
 
 class BookmarkProject @Inject constructor(

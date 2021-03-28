@@ -12,7 +12,7 @@ ext {
     javaxInjectVersion = '1'
     kotlinxSerializationVersion = '0.20.0'
     androidAnnotationsVersion = '1.1.0'
-    okHttpVersion = '3.8.1'
+    okHttpVersion = '4.9.0'
     retrofitVersion = '2.9.0'
     daggerVersion = '2.28'
     roomVersion = '2.2.5'
@@ -80,6 +80,8 @@ ext {
     cacheDependencies = [
             daggerCompiler      : "com.google.dagger:dagger-compiler:${daggerVersion}",
             dagger              : "com.google.dagger:dagger:${daggerVersion}",
+            daggerSupport       : "com.google.dagger:dagger-android-support:${daggerVersion}",
+            daggerProcessor     : "com.google.dagger:dagger-android-processor:${daggerVersion}",
             KotlinxSerialization: "org.jetbrains.kotlinx:kotlinx-serialization-runtime:${kotlinxSerializationVersion}",
             rxKotlin            : "io.reactivex.rxjava2:rxkotlin:${rxKotlinVersion}",
             kotlin              : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${kotlinVersion}",

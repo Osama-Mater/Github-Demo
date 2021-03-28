@@ -15,7 +15,7 @@ import javax.inject.Inject
     version = 1,
     exportSchema = false
 )
-abstract class ProjectsDatabase @Inject constructor() : RoomDatabase() {
+abstract class ProjectsDatabase  : RoomDatabase() {
 
     abstract fun cachedProjectsDao(): CachedProjectsDao
 

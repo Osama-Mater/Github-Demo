@@ -1,6 +1,7 @@
 package com.mattar.mobile_ui
 
 import android.app.Application
+import com.mattar.mobile_ui.injection.DaggerApplicationComponent
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasAndroidInjector

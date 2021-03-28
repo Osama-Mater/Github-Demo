@@ -39,6 +39,10 @@ dependencies {
     implementation cacheDependencies.roomRuntime
     implementation cacheDependencies.roomRxJava
     kapt cacheDependencies.roomCompiler
+    kapt cacheDependencies.daggerCompiler
+    kapt cacheDependencies.daggerProcessor
+    implementation cacheDependencies.dagger
+    implementation cacheDependencies.daggerSupport
 
     testImplementation cacheTestDependencies.junit
     testImplementation cacheTestDependencies.kotlinJUnit

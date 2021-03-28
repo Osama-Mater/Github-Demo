@@ -2,8 +2,9 @@ package com.mattar.remote.mapper
 
 import com.mattar.data.model.ProjectEntity
 import com.mattar.remote.model.ProjectModel
+import javax.inject.Inject
 
-open class ProjectsResponseModelMapper :
+open class ProjectsResponseModelMapper @Inject constructor():
     ModelMapper<ProjectModel, ProjectEntity> {
 
     override fun mapFromModel(model: ProjectModel): ProjectEntity {
